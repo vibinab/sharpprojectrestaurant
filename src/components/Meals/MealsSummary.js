@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./MealsSummary.css"
 export default function MealsSummary() {
   return (
     <>
-     <section className={classes.summary}>
+     <section className='meals' >
       <h2>Delicious Food, Delivered To You</h2>
       <p>
         Choose your favorite meal from our broad selection of available meals

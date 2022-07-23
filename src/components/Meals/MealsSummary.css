@@ -1,0 +1,21 @@
+.meals {
+    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    width: 60%;
+    margin:0 auto;
+    padding: 1rem;
+}
+
+.meals h2 {
+    font-size: 2rem;
+    color:white;
+    padding: 1rem;
+}
+
+.meals p {
+    /* border: 2px solid black; */
+    width: 90%;
+    margin: 0 auto;
+    color:white;
+    padding: 1rem;
+}

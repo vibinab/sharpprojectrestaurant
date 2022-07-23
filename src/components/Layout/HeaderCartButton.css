@@ -1,0 +1,15 @@
+.cart-button {
+    border: 2px solid black;
+    background-color: black;
+    color:white;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.card-number {
+    background-color: brown;
+    border-radius: 50%;
+    margin-left: 2rem;
+    padding:0.5rem;
+}

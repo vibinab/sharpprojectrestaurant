@@ -7,7 +7,10 @@ export default function Meals() {
   return (
     <>
         <MealsSummary />
-        {/* <Availiable/> */}
+        <div style={{marginTop:'2rem',backgroundColor:'white',width:'80%',margin:'0 auto', borderRadius:'15px'}}>
+        <Availiable/>
+        </div>
+        
     </>
   )
 }

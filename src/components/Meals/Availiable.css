@@ -1,0 +1,15 @@
+.meallist{
+    text-align: left;
+    /* border-bottom: 2px solid black; */
+    width: 95%;
+    margin: 0 auto;
+    /* background-color: white; */
+    padding: 1.5rem;
+   
+    
+
+}
+
+.meallist li {
+    list-style-type: none;
+}

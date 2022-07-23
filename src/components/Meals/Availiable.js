@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Availiable.css"
 
 const DUMMY_MEALS = [
     {
@@ -33,7 +34,14 @@ export default function Availiable() {
         {
             DUMMY_MEALS.map(meal=> {
                return (
-                <li>{meal.name}</li>
+               <div className="meallist">
+                <ul key={meal.id}>
+                    <li style={{font:'bold'}}><b>{meal.name}</b></li>
+                    <li style={{fontSize:'0.8rem'}}>{meal.description}</li>
+                    <li style={{color:'red'}}>${meal.price}</li>
+                </ul>
+                <hr></hr>
+                </div>
                ) 
             })
         }

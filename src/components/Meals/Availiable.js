@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Availiable.css"
+import { MealItem } from './MealItem';
 
 const DUMMY_MEALS = [
     {
@@ -34,14 +35,13 @@ export default function Availiable() {
         {
             DUMMY_MEALS.map(meal=> {
                return (
-               <div className="meallist">
-                <ul key={meal.id}>
-                    <li style={{font:'bold'}}><b>{meal.name}</b></li>
-                    <li style={{fontSize:'0.8rem'}}>{meal.description}</li>
-                    <li style={{color:'red'}}>${meal.price}</li>
-                </ul>
-                <hr></hr>
-                </div>
+              <MealItem 
+              id={meal.id}
+              key={meal.id}
+              name={meal.name}
+              description={meal.description}
+              price={meal.price} 
+              />
                ) 
             })
         }

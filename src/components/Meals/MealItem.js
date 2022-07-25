@@ -13,7 +13,7 @@ export const MealItem = (props) => {
     </ul>
     </div>
     <div>
-       <MealItemForm id={props.id}/> 
+       <MealItemForm id={props.id} item={props}/> 
        
     </div>
     
